@@ -82,5 +82,11 @@
 			"maxValue": 2,
 			"defaultValue": 0
 		}
-	]
+	],
+	"metadata": {
+		"inclusion": "Enter programming mode by holding down the top of the paddle for 7 seconds, the LED will blink Amber. Enter exclusion mode on Z-Wave Controller, then tap the top of the paddle one time. The LED will quickly flash green. Upon successful addition to network, the LED will turn off then blink green 3 times.",
+		"exclusion": "Enter programming mode by holding down the top of the paddle for 7 seconds, the LED will blink Amber. Enter exclusion mode on Z-Wave Controller, then tap the top of the paddle one time. The LED will quickly flash green. Upon successful removal from network, the Z-Wave controller will confirm",
+		"reset": "Hold the top of the paddle down for 14 seconds. Upon successful reset, the LED with blink red/amber.",
+		"manual": "https://www.leviton.com/en/docs/DI-000-DZ1KD-02A-W.pdf"
+	}
 }
